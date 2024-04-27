@@ -160,11 +160,10 @@
 }
 .login-form {
   width: 100%;
-  height: 100%;
+  height: 596px;
   display: flex;
   max-width: 598px;
   align-self: center;
-  margin-top: 19px;
   max-height: 550;
   align-items: flex-start;
   justify-content: center;
@@ -206,8 +205,8 @@
   width: 100%;
   height: 100%;
   font-size: 36px;
-  max-width: 237;
-  max-height: 131;
+  max-width: 237px;
+  max-height: 131px;
   font-family: "Crimson Text";
   background-size: cover;
   background-color: transparent;
