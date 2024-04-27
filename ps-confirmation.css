@@ -1,0 +1,158 @@
+.ps-confirmation-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.ps-confirmation-ps-confirmation {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 2500;
+  align-items: flex-end;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.ps-confirmation-rectangle9 {
+  top: -13px;
+  left: 0px;
+  width: 2500;
+  height: 77px;
+  position: absolute;
+}
+.ps-confirmation-text {
+  top: 185px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ps-confirmation-form {
+  width: 976px;
+  height: 418px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ps-confirmation-navlink {
+  display: contents;
+}
+.ps-confirmation-cancelmeeting2 {
+  top: 523px;
+  left: 129px;
+  width: 264px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.ps-confirmation-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.ps-confirmation-text06 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ps-confirmation-navlink1 {
+  display: contents;
+}
+.ps-confirmation-confirmps {
+  top: 525px;
+  right: 158px;
+  width: 264px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.ps-confirmation-rectangle61 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.ps-confirmation-text08 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .ps-confirmation-confirmps {
+    top: 525px;
+    left: 404px;
+  }
+}
+@media(max-width: 479px) {
+  .ps-confirmation-text {
+    font-size: 28px;
+  }
+  .ps-confirmation-cancelmeeting2 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
+  .ps-confirmation-rectangle6 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .ps-confirmation-confirmps {
+    top: 480px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}

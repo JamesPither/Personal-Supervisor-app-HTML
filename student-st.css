@@ -1,0 +1,274 @@
+.student-st-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.student-st-student-st {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 2500;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.student-st-text {
+  top: 325px;
+  left: 110px;
+  color: rgba(0, 0, 0, 1);
+  width: 494px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-st-rectangle9 {
+  top: -13px;
+  left: 0px;
+  width: 2500;
+  height: 77px;
+  position: absolute;
+}
+.student-st-navlink {
+  display: contents;
+}
+.student-st-return-st1 {
+  top: 723px;
+  left: 113px;
+  width: 264px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.student-st-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.student-st-text14 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-st-navlink1 {
+  display: contents;
+}
+.student-st-streturn {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.student-st-rectangle61 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  border-radius: 20px;
+}
+.student-st-rectangle18 {
+  top: 4px;
+  left: 5.777777671813965px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+}
+.student-st-form {
+  width: 608px;
+  height: 563px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.student-st-thq-dropdown {
+  width: 425px;
+  cursor: pointer;
+  height: 52px;
+  display: inline-block;
+  position: relative;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.student-st-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.student-st-text16 {
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.student-st-dropdown-arrow {
+  transition: 0.3s;
+}
+.student-st-icon {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.student-st-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.student-st-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.student-st-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.student-st-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.student-st-text17 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.student-st-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.student-st-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.student-st-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.student-st-text20 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.student-st-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.student-st-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.student-st-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.student-st-text21 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}

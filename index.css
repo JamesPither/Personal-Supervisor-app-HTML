@@ -1,0 +1,247 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-login {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 2500;
+  max-height: 1080;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-rectangle9 {
+  top: -13px;
+  left: 0px;
+  width: 2500;
+  height: 77px;
+  position: absolute;
+}
+.login-text {
+  top: 571px;
+  left: 185px;
+  color: rgba(0, 0, 0, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-navlink {
+  display: contents;
+}
+.login-st {
+  top: 864px;
+  left: 1137px;
+  width: 264px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.login-rectangle6 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.login-text02 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 598px;
+  align-self: center;
+  margin-top: 19px;
+  max-height: 550;
+  align-items: flex-start;
+  justify-content: center;
+}
+.login-navlink1 {
+  display: contents;
+}
+.login-student {
+  top: 867px;
+  left: 145px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  max-width: 264;
+  max-height: 144;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.login-rectangle61 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.login-text04 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-navlink2 {
+  display: contents;
+}
+.login-ps {
+  top: 874px;
+  left: 603px;
+  width: 264px;
+  height: 144px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.login-rectangle62 {
+  top: 0px;
+  left: 0px;
+  width: 264px;
+  height: 144px;
+  position: absolute;
+  border-radius: 20px;
+}
+.login-text06 {
+  top: 45px;
+  left: 47px;
+  color: rgba(247, 247, 247, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Crimson Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.login-textinput {
+  width: 100%;
+  height: 100%;
+  font-size: 42px;
+  max-width: 559;
+  max-height: 72;
+  line-height: 2;
+}
+.login-image {
+  width: 200px;
+  object-fit: cover;
+}
+.login-textinput1 {
+  width: 100%;
+  height: 100%;
+  font-size: 42px;
+  max-width: 559;
+  max-height: 72;
+  line-height: 2;
+}
+.login-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.login-login1 {
+  color: #fffdfd;
+  width: 100%;
+  height: 100%;
+  font-size: 36px;
+  max-width: 237;
+  max-height: 131;
+  font-family: "Crimson Text";
+  background-size: cover;
+  background-color: transparent;
+  background-image: url("public/external/rectangle6i2001-int-200h.png");
+  background-repeat: no-repeat;
+}
+@media(max-width: 991px) {
+  .login-text {
+    top: 567px;
+    left: 56px;
+  }
+  .login-st {
+    top: 76px;
+    left: 349px;
+    position: absolute;
+  }
+  .login-student {
+    left: 26px;
+    bottom: 14px;
+  }
+  .login-ps {
+    left: 349px;
+    bottom: 13px;
+  }
+}
+@media(max-width: 767px) {
+  .login-text {
+    top: 684px;
+    left: 35px;
+  }
+}
+@media(max-width: 479px) {
+  .login-st {
+    top: 29px;
+    right: 119px;
+  }
+}
