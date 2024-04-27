@@ -22,7 +22,7 @@
 .login-rectangle9 {
   top: -13px;
   left: 0px;
-  width: 2500;
+  width: 2500px;
   height: 77px;
   position: absolute;
 }
@@ -45,13 +45,15 @@
 .login-navlink {
   display: contents;
 }
-.login-st {
-  top: 864px;
-  left: 1137px;
-  width: 264px;
-  height: 144px;
+.login-student {
+  top: 867px;
+  left: 145px;
+  width: 100%;
+  height: 100%;
   display: flex;
   position: absolute;
+  max-width: 264;
+  max-height: 144;
   align-items: flex-start;
   flex-shrink: 0;
   text-decoration: none;
@@ -80,29 +82,16 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.login-form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  max-width: 598px;
-  align-self: center;
-  margin-top: 19px;
-  max-height: 550;
-  align-items: flex-start;
-  justify-content: center;
-}
 .login-navlink1 {
   display: contents;
 }
-.login-student {
-  top: 867px;
-  left: 145px;
-  width: 100%;
-  height: 100%;
+.login-ps {
+  left: 1076px;
+  width: 264px;
+  bottom: 5px;
+  height: 144px;
   display: flex;
   position: absolute;
-  max-width: 264;
-  max-height: 144;
   align-items: flex-start;
   flex-shrink: 0;
   text-decoration: none;
@@ -118,14 +107,14 @@
 .login-text04 {
   top: 45px;
   left: 47px;
-  color: rgba(247, 247, 247, 1);
+  color: rgb(247, 247, 247);
   width: 173px;
   height: auto;
   position: absolute;
   font-size: 36px;
   font-style: Regular;
   text-align: center;
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -134,7 +123,7 @@
 .login-navlink2 {
   display: contents;
 }
-.login-ps {
+.login-ps1 {
   top: 874px;
   left: 603px;
   width: 264px;
@@ -153,7 +142,7 @@
   position: absolute;
   border-radius: 20px;
 }
-.login-text06 {
+.login-text08 {
   top: 45px;
   left: 47px;
   color: rgba(247, 247, 247, 1);
@@ -168,6 +157,17 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+.login-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 598px;
+  align-self: center;
+  margin-top: 19px;
+  max-height: 550;
+  align-items: flex-start;
+  justify-content: center;
 }
 .login-container1 {
   flex: 0 0 auto;
@@ -219,11 +219,6 @@
     top: 567px;
     left: 56px;
   }
-  .login-st {
-    top: 76px;
-    left: 349px;
-    position: absolute;
-  }
   .login-student {
     left: 26px;
     bottom: 14px;
@@ -232,16 +227,14 @@
     left: 349px;
     bottom: 13px;
   }
+  .login-ps1 {
+    left: 349px;
+    bottom: 13px;
+  }
 }
 @media(max-width: 767px) {
   .login-text {
     top: 684px;
     left: 35px;
-  }
-}
-@media(max-width: 479px) {
-  .login-st {
-    top: 29px;
-    right: 119px;
   }
 }

@@ -13,7 +13,7 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  max-width: 2500;
+  max-width: 2500px;
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
@@ -60,30 +60,20 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.ps-home-form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  max-width: 1356;
-  align-self: center;
-  max-height: 672;
-  align-items: flex-end;
-  justify-content: space-between;
-}
 .ps-home-navlink {
   display: contents;
 }
-.ps-home-booking1 {
-  top: 433px;
-  left: 0px;
-  right: 0px;
+.ps-home-logout {
+  top: 443px;
+  right: 250px;
   width: 264px;
   height: 264px;
   margin: auto;
   display: flex;
   position: absolute;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
+  justify-content: flex-start;
   text-decoration: none;
 }
 .ps-home-rectangle6 {
@@ -120,17 +110,17 @@
 .ps-home-navlink1 {
   display: contents;
 }
-.ps-home-logout {
-  top: 443px;
-  right: 250px;
+.ps-home-booking1 {
+  top: 433px;
+  left: 0px;
+  right: 0px;
   width: 264px;
   height: 264px;
   margin: auto;
   display: flex;
   position: absolute;
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
-  justify-content: flex-start;
   text-decoration: none;
 }
 .ps-home-rectangle61 {
@@ -168,16 +158,16 @@
   display: contents;
 }
 .ps-home-students {
-  top: 433px;
+  top: 443px;
   left: 250px;
-  width: 100%;
-  height: 100%;
+  width: 264px;
+  height: 264px;
+  margin: auto;
   display: flex;
   position: absolute;
-  max-width: 264;
-  max-height: 264;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
+  justify-content: flex-start;
   text-decoration: none;
 }
 .ps-home-rectangle62 {
@@ -225,47 +215,36 @@
   }
   .ps-home-students {
     left: 50px;
-    margin: auto;
   }
 }
 @media(max-width: 991px) {
+  .ps-home-logout {
+    top: 394px;
+    right: 0px;
+  }
   .ps-home-booking1 {
     top: 394px;
     left: 0px;
     right: 0px;
     margin: auto;
   }
-  .ps-home-logout {
-    top: 394px;
-    right: 0px;
-  }
   .ps-home-students {
     top: 394px;
     left: 0px;
-    margin: auto;
-  }
-  .ps-home-rectangle62 {
-    top: 0px;
-    right: 0px;
-    margin: auto;
   }
 }
 @media(max-width: 767px) {
   .ps-home-ps-home {
     height: 1235px;
   }
-  .ps-home-form {
-    flex-direction: column;
-  }
-  .ps-home-booking1 {
-    top: 675px;
-  }
   .ps-home-logout {
     top: 950px;
     left: 0px;
   }
+  .ps-home-booking1 {
+    top: 675px;
+  }
   .ps-home-students {
-    top: 394px;
     left: 0px;
     right: 0px;
     margin: auto;
