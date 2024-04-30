@@ -128,8 +128,10 @@
   width: 264px;
   height: 264px;
   position: absolute;
+  transition: 0.3s;
   border-radius: 20px;
 }
+
 .st-home-rectangle101 {
   top: 11px;
   left: 53px;

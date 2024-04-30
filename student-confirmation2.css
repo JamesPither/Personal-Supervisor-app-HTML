@@ -27,9 +27,11 @@
 }
 .student-confirmation2-text {
   top: 202px;
-  left: 115px;
+  left: 0px;
   color: rgba(0, 0, 0, 1);
+  right: 0px;
   height: auto;
+  margin: auto;
   position: absolute;
   font-size: 36px;
   font-style: Regular;
@@ -134,6 +136,7 @@
 }
 @media(max-width: 479px) {
   .student-confirmation2-text {
+    top: 100px;
     left: 0px;
     right: 0px;
     margin: auto;

@@ -29,7 +29,7 @@
   display: contents;
 }
 .student-meeting-confirmmeetingstudent {
-  left: 44px;
+  left: 0px;
   width: 264px;
   bottom: 24px;
   height: 144px;
@@ -93,13 +93,38 @@
   position: absolute;
 }
 .student-meeting-form {
+  top: 177px;
+  left: 0px;
   width: 1774px;
   height: 670px;
   display: flex;
+  position: absolute;
 }
-.student-meeting-text02 {
-  top: 468px;
-  left: 46px;
+.student-meeting-select {
+  top: 0px;
+  left: 0px;
+  width: 414px;
+  height: 66px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.student-meeting-select1 {
+  top: 100px;
+  left: 0px;
+  width: 414px;
+  height: 66px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.student-meeting-text2 {
+  top: 250px;
+  left: 0px;
   color: rgba(0, 0, 0, 1);
   height: auto;
   position: absolute;
@@ -112,341 +137,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.student-meeting-container1 {
-  flex: 0 0 auto;
-  width: 425px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-.student-meeting-thq-dropdown {
-  width: 425px;
-  cursor: pointer;
-  height: 53px;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-text04 {
-  font-size: 30px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-.student-meeting-dropdown-arrow {
-  transition: 0.3s;
-}
-.student-meeting-icon {
-  width: 18px;
-  height: 18px;
-  transition: 0.3s;
-}
-.student-meeting-dropdown-list {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.student-meeting-dropdown {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle1 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle1:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text05 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-dropdown1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle2 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle2:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text08 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-dropdown2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle3 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle3:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text09 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-image {
-  width: 296px;
-  height: 85px;
-  object-fit: cover;
-}
-.student-meeting-thq-dropdown1 {
-  width: 425px;
-  cursor: pointer;
-  height: 51px;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle4 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-text12 {
-  font-size: 30px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-.student-meeting-dropdown-arrow1 {
-  transition: 0.3s;
-}
-.student-meeting-icon2 {
-  width: 18px;
-  height: 18px;
-  transition: 0.3s;
-}
-.student-meeting-dropdown-list1 {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.student-meeting-dropdown3 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle5 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle5:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text13 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-dropdown4 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle6 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle6:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text14 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-dropdown5 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-meeting-dropdown-toggle7 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-meeting-dropdown-toggle7:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-meeting-text15 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-meeting-image1 {
-  width: 296px;
-  height: 148px;
-  object-fit: cover;
-}
 .student-meeting-textarea {
+  top: 380px;
+  left: 0px;
   width: 1266px;
   height: 288px;
+  position: absolute;
   font-size: 30px;
+  align-self: flex-start;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: #dacccc;
 }

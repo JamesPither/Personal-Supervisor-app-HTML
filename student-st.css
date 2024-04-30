@@ -20,7 +20,7 @@
 }
 .student-st-text {
   top: 325px;
-  left: 110px;
+  left: 0px;
   color: rgba(0, 0, 0, 1);
   width: 494px;
   height: auto;
@@ -46,7 +46,7 @@
 }
 .student-st-return-st1 {
   top: 723px;
-  left: 113px;
+  left: 0px;
   width: 264px;
   height: 144px;
   display: flex;
@@ -109,165 +109,22 @@
   position: absolute;
 }
 .student-st-form {
+  top: 231px;
+  left: 0px;
   width: 608px;
   height: 563px;
   display: flex;
+  position: absolute;
   align-items: flex-start;
   justify-content: center;
 }
-.student-st-thq-dropdown {
-  width: 425px;
-  cursor: pointer;
-  height: 52px;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-st-dropdown-toggle {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-st-text16 {
-  font-size: 30px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-.student-st-dropdown-arrow {
-  transition: 0.3s;
-}
-.student-st-icon {
-  width: 18px;
-  height: 18px;
-  transition: 0.3s;
-}
-.student-st-dropdown-list {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
+.student-st-select {
+  top: 0px;
+  left: 0px;
+  width: 414px;
+  height: 66px;
+  margin: auto;
   position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.student-st-dropdown {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-st-dropdown-toggle1 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-st-dropdown-toggle1:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-st-text17 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-st-dropdown1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-st-dropdown-toggle2 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-st-dropdown-toggle2:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-st-text20 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-}
-.student-st-dropdown2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.student-st-dropdown-toggle3 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.student-st-dropdown-toggle3:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.student-st-text21 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
